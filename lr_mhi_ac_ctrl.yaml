@@ -6,7 +6,6 @@ substitutions:
 
 esphome:
   name: lr_mhi_ac_ctrl
-  platform: ESP8266
   board: d1_mini
   platformio_options:
     # Run CPU at 160Mhz to fix mhi_ac_ctrl_core.loop error: -2
